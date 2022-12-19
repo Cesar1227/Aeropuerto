@@ -1,0 +1,276 @@
+.form_register{
+	width: 450px;
+	margin: auto;  /*para centrar*/
+
+}
+.form_register h1{
+	color: #3cff;
+}
+hr{
+	border: 0;
+	background: #ccc;
+	height: 1px;
+	margin: 10px 0;
+	display: block; /*Para utilizar todo el ancho*/
+
+}
+form{ /*Formulario*/
+ background: blanco;
+ margin: auto;
+ padding: 20px 50px; 
+ border: 1px solid #d1d1;
+
+}
+
+label{
+	display: block;
+	font-size: 12pt;
+	font-family: 'GothamBook'
+	margin: 15px auto 5px auto; /*ARRIBA, ABAJO, DER3ECHA, IZQUIERDA*/
+
+}
+
+input{
+	display: block;
+	width: 100%;
+	font-size: 11pt;
+	padding: 5px;
+	border: 1px solid #85929e;
+	border-radius: 5px;
+	margin-bottom: 10px;
+
+}
+
+input{
+	
+	border:none !important;
+	outline: none !important;
+	border-bottom: 1px solid #000 !important;
+	background: rgb(255,255,255,0.3) !important;
+}
+
+table{
+	border-radius: 10px;
+	border-collapse: collapse;
+}
+
+.btn_save{
+	font-size: 12pt;
+	background: #12a4c5;
+	padding: 10px;
+	color: #fff;
+	letter-spacing: 1px; /*PAra que el texto no aparezaca junto, halla una separación entre las letras*/
+	border: 0px;
+	cursor: pointer;
+	margin: 20px 0px !important; 
+}
+
+
+/*
+.alert{
+	width: 100%;
+	background: #f2d7d5;
+	border-radius: 10px;
+	margin: 20px auto;
+
+}*/
+.msg_error{
+	color:  #e74c3c;
+	background: #f2d7d5;
+	border-radius: 10px;
+	margin: 0px auto;
+
+}
+.msg_save{
+	color: #126e00;
+	background: #7dcea0;
+	border-radius: 10px;
+	margin: 0px auto;
+}
+.alert p{
+	padding: 10px;
+}
+#containerPasajeros{
+	margin-left: 210px;
+	margin-right: 10px;
+	padding-top: 80px;
+}
+ 
+#containerPasajeros h1{
+	padding: 15px 15px 15px;
+	font-size: 25px;
+	display: inline-block;
+	position: relative;
+	width: 78%;
+
+	
+}
+.navbar{
+	width: 100%;
+	float: none;
+}
+.navbar-brand{
+	width: 100%;
+}
+
+.btn.btn-primary{
+	margin-top:35px; 
+}
+
+.table_pasajeros{
+	margin-top: 10px;
+	padding-left: 40px;
+	
+}
+
+/* Elemento | http://localhost/ElDorado/View_tripulacion.php */
+
+.btn-success.act {
+  margin-top: 35px;
+}
+
+/* Elemento | http://localhost/ElDorado/View_tripulacion.php */
+
+button.btn.btn-danger.eli:nth-child(2) {
+  margin-left: 140px;
+  margin-top: -65px;
+}
+
+/* Elemento | http://localhost/ElDorado/View_tripulacion.php */
+
+div.col-12:nth-child(2) > form:nth-child(1) {
+  /* margin-left: a; */
+  margin-left: -15px;
+}
+
+.opcion_vista_tabla ul{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 20px;
+
+}
+.opcion_vista_tabla ul select{
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 20px !important;
+
+}
+
+.paginador ul{
+	padding: 15px;
+	list-style: none;
+	background:transparent;
+	margin-top: 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.paginador ul li{
+	background: rgb(0,0,0,0.4);
+}
+
+.paginador a, .pagiSelected{
+	color: #fff;
+	border: 1px;
+	padding: 5px;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	width: 35px;
+
+}
+.paginador a:hover{
+	background: #ddd;
+	color: #000;
+}
+.pagiSelected{
+	color: #fff !important;
+	background: #424949 !important;
+	border: 1px solid #424949;
+}
+
+#btn_agregar_ciu{
+	width: 10%;
+}
+
+.fondo{
+	background: url(../img/airlines_hero.jpg);
+	position: relative;
+ 	margin-top: -20px;
+ 	padding-top: 20px;
+ 	margin-right: -20px;
+ 	padding-right: 20px;
+ 	margin-bottom: -20px;
+	padding-bottom: 20px;
+	margin-left: -50px;
+}
+
+.content{
+	margin-left: 50px;
+	background: rgb( 255, 255, 255 ,0.3);
+	margin-left: 0px;
+  padding-left: 30px;
+  margin-right: -20px;
+  padding-right: 20px;
+  margin-top: -20px;
+  padding-top: 20px;
+  margin-bottom: -20px;
+  padding-bottom: 20px;
+}
+
+
+/*paginador 2*/
+
+
+.paginador2 ul{
+	padding: 15px;
+	list-style: none;
+	background:transparent;
+	margin-top: 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.paginador2 ul li{
+	background: rgb(0,0,0,0.4);
+}
+
+.paginador2 a, .pagiSelected2{
+	color: #fff;
+	border: 1px;
+	padding: 5px;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	width: 35px;
+
+}
+.paginador2 a:hover{
+	background: #ddd;
+	color: #000;
+}
+.pagiSelected2{
+	color: #fff !important;
+	background: #424949 !important;
+	border: 1px solid #424949;
+}
+
+
+/* Elemento | http://localhost/ElDorado/vistas/view_administracion.php?pagina2=3 */
+
+div.table_pasajeros:nth-child(2) > table:nth-child(2) {
+  margin-right: 160px;
+}
+

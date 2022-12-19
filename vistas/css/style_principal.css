@@ -1,0 +1,356 @@
+/*HOJA DE ESTILOS DE LA PAGINA PRINCIPAL DE LA WEB*/
+
+@import url(..\fonts\GothamBook.css);
+@import url(..\fonts\GothamBold.css);
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	background: #ededed;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    /**font-family: 'arial';*/
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+h1{
+	font-size: 26px; 
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	font-size: 18px;
+}
+h4{
+	font-size: 16px;
+}
+h5{
+	font-size: 14px;
+}
+h6{
+	font-size: 12px;
+}
+p{
+	font-family: 'arial';
+	letter-spacing: 2px;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 0 !important;
+}
+a{
+	text-decoration: none;
+	font-family: arial;
+	letter-spacing: 1px;
+}
+span {
+    font-family: 'GothamBook';
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 20px;
+}
+header{
+	position: fixed;
+	width: 100%;
+	display: inline-block;   /*en prueba 1*/
+	
+	z-index: 99999;
+
+}
+main{
+
+}
+.header{
+	color: #FFF;
+	/**background: #0a4661;*/
+	background:     #424949   ;
+	height: 70px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+
+}
+.optionsBar{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.optionsBar span {
+    color: #FFF;
+    font-size: 11pt;
+    font-family: 'GothamBook';
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+.photouser {
+    margin-left: 30px;
+    width: 25px;
+    height: 25px;
+}
+.close{
+	width: 25px;
+    height: 25px;
+}
+.optionsBar a {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin-left: 30px;
+}
+
+/*ORGANIZACION ENTRE EL HEADER Y EL MENU*/
+
+/* Elemento | http://localhost/ElDorado/inicio/viewPasajero.php# 
+*/
+body > nav:nth-child(2) > ul:nth-child(1) {
+  padding-top: px;
+  margin-top: 0px;
+}
+
+
+
+body > nav:nth-child(2) {
+  margin-top: 70px;
+}
+
+
+
+body > header:nth-child(1) {
+  left: 0px;
+}
+
+
+/*TERMINA ORGANIZACION*/
+
+nav{
+	width: 204px;
+	float:left; /*en prueba 1*/
+	margin-top: 0px;
+
+}
+nav ul{
+	/*background: #058167;*/
+	/*background: #05817d;*/
+	background: #424949 ; 
+	list-style: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	vertical-align: left;
+	display: inline-block;  
+	/*height: 50vw;*/
+	width: 200px;
+	height: 100vh;
+	
+}
+
+nav ul li{
+	padding: 10px;
+	position: relative;
+
+}
+nav ul > li a{
+	position: relative;
+}
+nav a{
+	color: #FFF;
+	display: block;
+	font-size: 10pt;
+	font-family: 'GothamBook';
+	padding: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: background .5s;
+	border-right: 1px solid #319B8F;
+}
+nav .principal > a{
+    background: url(..\images\arrow_bottom.png) no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    background-position: 94% center;
+    background-size: 10px;
+}
+nav ul li:hover ul{
+	display: block;
+}
+nav li ul{
+	/*background: #177470;*/
+	background: #2d9872;
+	display: none;
+	flex-direction: column;
+	/*position: absolute;*/         /*DEJA ESCOGER*/
+	align-items: flex-start;
+	border-radius: 0 0 10px 10px;
+	left: 200px;              /*POSICION DE LA PESTAÑA QUE SALE*/
+	height: auto;
+}
+nav li ul a{
+	position: relative;
+	padding: 10px 30px;
+	border-right: initial;
+}
+nav li ul a:hover{
+	/*background: #2c9595;*/
+	background: #147556;
+}
+nav li ul li:last-child{
+	border-radius: 0 0 10px 10px;
+	overflow: hidden;
+}
+#menu_lateral{
+	width: 20%;
+	height: 100%;
+	position: fixed;
+	z-index: 99999;
+	top: 10%
+}
+#containerP{
+	margin-left: 200px;
+	padding: 90px 15px 15px;
+	padding-right: 10%;
+
+	float: top;
+	width: 90%;
+	
+	height: 100%;
+	position: relative;
+	left: 0px;
+	background-image: url(../img/El-Dorado-Fallback.jpg);
+
+}
+.navbar{
+	width: 100%;
+	display: contents !important;
+}
+
+/* Elemento | http://localhost/ElDorado/principal.php */
+
+.navbar-brand {
+  margin-bottom: 20px;
+  display: inline-block;
+  padding-right: 65%; 
+}
+
+
+/* Elemento | http://localhost/ElDorado/principal.php */
+
+div.col.card.card-img-top {
+  width: 50% !important;
+  height: 50% !important;
+  align-self: center !important;
+}
+
+/* Elemento | http://localhost/ElDorado/principal.php */
+
+div.col {
+  height: auto !important;
+}
+
+
+/* Elemento | http://localhost/ElDorado/principal.php */
+
+div.col > div {
+  height: 200px !important;
+}
+
+/* Elemento | http://localhost/ElDorado/principal.php */
+
+div.col > div> img {
+  height: 60%;
+}
+
+.modal{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,0.85);
+	display: none ;
+}
+.bodyModal{
+	width: 100%;
+	height: 100%;
+	display: -webkit-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+#form_form_modal{
+	background: #fff;
+	text-align: center;
+	width: 420px;
+
+}
+
+
+.card{
+	
+	background: transparent !important;
+	align-items: center !important;
+	border-radius: 100% !important;
+	width: 200px;
+}
+
+
+.card{
+	background-color: rgb(234, 242, 248,0.2) !important;
+}
+.card-img-top:hover{
+	-webkit-transform: scale(1.3) !important; 
+}
+
+.card-img-top{
+	-webkit-transition: all .2s ease-in-out !important;
+
+}
+
+
+.btn-outline-dark{
+	-webkit-transition: all .2s ease-in-out !important;
+	background: #424949;
+	color: #fff !important;
+	border-color:#fff !important;	
+}
+
+.btn-outline-dark:hover{
+	-webkit-transform: scale(1.3) !important; 
+
+}
+
+#contenedor_btnMenu{
+	margin-left: 15px;
+}
+
+/*
+.middlepanel{
+	background: black;
+	float: right;
+	width: 86%;
+	height: 100px;
+}
+*/
+/*****************************************************************/

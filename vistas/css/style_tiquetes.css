@@ -1,0 +1,138 @@
+#container{
+	
+	margin-right: 10px;
+	padding-top: 80px;
+
+}
+ 
+#container h1{
+	padding: 15px 15px 15px;
+	font-size: 25px;
+	display: inline-block;
+	position: relative;
+	width: 78%;
+	
+	
+}
+.content{
+	margin-left: 210px;
+}
+.form_venta{
+
+	background:  #ecf0f1;
+	border-radius: 15px;
+	opacity: ;
+}
+h1{
+	font-family: 'GothamBook';
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+table{
+	border-collapse: collapse;
+	font-size: 12pt;
+	font-family: 'Times new roman';
+	width: 98% !important;
+	background:  #ecf0f1  ;
+	margin-right: 10px; 
+	margin-top: 20px;
+	border-radius: 10px;
+}
+table th{
+	text-align: left;
+	padding: 10px;
+	/*background: #d4e6f1 ;*/ 
+	color:#5d6d7e;
+}
+/*table tr:nth-child(odd){
+	background: #fff; 
+}*/
+table td{
+	padding: 10px;
+
+}
+
+/*CONTRADICCIÓN A BOOTSTRAP*/
+
+
+/* Elemento | http://localhost/ElDorado/tiquetes.php */
+
+/* Elemento | http://localhost/ElDorado/tiquetes.php */
+
+div.form-group:nth-child(1) > label:nth-child(1) {
+  padding-left: 40px;
+  padding-right: 10px;
+  
+}
+
+
+label.col-form-label{
+  padding-left: 40px;
+  padding-right: 10px;
+}
+
+button.btn-primary{
+	margin-left:20px; 
+}
+
+.combobox{
+	width: 300px !important;
+}
+
+.navbar{
+	width: 100%;
+	float: none;
+}
+.navbar-brand{
+	width: 100%;
+}
+
+/* Elemento | http://localhost/ElDorado/tiquetes.php */
+
+.form_venta{
+	padding-top: 30px;
+	padding-bottom: 5px;
+  	margin-left: 10px;
+  	margin-bottom: 20px;
+  	background: rgb(255,255,255,0.2);
+}
+
+
+.col-12 > form:nth-child(1) > div:nth-child(1) {
+	 margin-bottom: 15px !important;
+}
+
+
+.fondo{
+	background: url("../img/fondo_vuelos.jpg");
+
+	
+	position: relative;
+ 	margin-top: -20px;
+ 	padding-top: 20px;
+ 	margin-right: -20px;
+ 	padding-right: 20px;
+ 	margin-bottom: -20px;
+	padding-bottom: 20px;
+}
+
+label{
+	border: none;
+}
+
+input{
+	
+	border:none !important;
+	outline: none !important;
+	border-bottom: 1px solid #000 !important;
+	background: rgb(255,255,255,0.3) !important;
+}
+
+.custom-select.col-sm-10{
+	background: transparent;
+	opacity: 10px;
+	cursor: s-resize;
+}
+
+
+

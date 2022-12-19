@@ -1,0 +1,123 @@
+/*Para todos los objetos*/
+
+body{
+	background-color: #fff;
+	
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+h3{
+	font-family: 'Arial';
+	font-size: 18pt;
+	letter-spacing: 1px;
+	width: 105%;
+	background:  #f1c40f; 
+	margin-left: -10px !important;
+	padding: 15px;
+	margin-bottom: 40px;
+	color: #000;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+}
+
+#avatar_log{
+	
+	width:350px;
+	height: 70px;
+}
+
+.login #avatar_log{
+	margin-top: -50px;
+	border-radius: 10%;
+	padding-left: 70%;
+	
+
+}
+
+.login .input_login{
+	margin: 15px 15px !important;
+	border:none;
+	outline: none;
+	border-bottom: 1px solid #000;
+	background: transparent !important;
+	font-size: 12pt;
+}
+
+.login .input_login:hover{
+	border:auto;
+	background: #fff;
+}
+
+
+/* Elemento | http://localhost/ElDorado/index.php */
+
+
+#container{
+	background: #aab7b8;
+	width: 100vw;
+	height: 100vh;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../img/El-Dorado-Fallback.jpg");
+	
+}
+
+#container form{
+	background:   #ecf0f1 ;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+	border-radius: 10px;
+	
+}
+
+#container form img{
+	margin: 30px auto;
+	text-align: center;
+	display: block;
+
+}
+
+#container form input{
+	width: 90%;
+	padding: 10px;
+	font-size-: 16pt;
+	display: block;
+	margin: 10px auto;
+	background: 
+}
+
+#container form input[type="submit"]{
+	background:  #808b96 ;
+	padding: 10px;
+	color: white;
+	letter-spacing: 1px;
+	border: 0;
+	cursor: pointer;
+}
+
+.alert{
+	font-family: 'Arial';
+	font-size: 16px;
+	text-align: center;
+	color: red !important;
+}
+.alert [type="submit"]{
+	margin-top: 40px !important;
+	border-radius: 30px;
+	font-size: 13pt;
+}
+.alert [type="submit"]:hover{
+	background: #000 !important;
+	color: #fff !important;
+}
