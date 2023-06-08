@@ -1,2 +1,2 @@
 # AeroFlight
-Sistema de aeropuerto
+Sistema de aeropuerto en PHP y PostgreSQL
